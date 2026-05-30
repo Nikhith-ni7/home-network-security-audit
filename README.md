@@ -1,104 +1,61 @@
 <div align="center">
 
-# 🛡️ HOME NETWORK SECURITY AUDIT
+# 🛡️ Home Network Security Audit
 
-### Assess • Analyze • Secure
+### A Practical Security Assessment of a Residential Network Environment
 
-![Cybersecurity](https://img.shields.io/badge/Cybersecurity-Project-0A192F?style=for-the-badge)
-![Network Security](https://img.shields.io/badge/Network-Security-00C853?style=for-the-badge)
-![Nmap](https://img.shields.io/badge/Tool-Nmap-E53935?style=for-the-badge)
-![Wireshark](https://img.shields.io/badge/Tool-Wireshark-1E88E5?style=for-the-badge)
+<br>
 
----
-
-### 🔍 Security Assessment • 🌐 Asset Discovery • ⚡ Risk Analysis • 🛡️ Security Hardening
+`Asset Discovery` • `Service Enumeration` • `Risk Assessment` • `Security Hardening`
 
 </div>
 
 ---
 
-# 🎯 Executive Summary
+## 📖 Overview
 
-This project simulates a real-world security assessment of a home network environment. The objective was to identify network assets, enumerate exposed services, assess potential attack surfaces, and provide actionable recommendations to improve the overall security posture.
+This project demonstrates the process of conducting a security assessment on a home network environment. The objective was to identify connected devices, enumerate exposed services, analyze potential security risks, and recommend security hardening measures to improve the overall security posture.
 
-The assessment follows industry-standard security methodologies used by SOC Analysts, Security Analysts, and Penetration Testers.
+The assessment follows methodologies commonly used by Security Analysts and SOC teams when evaluating network visibility and attack surfaces.
 
 ---
 
-# 🌐 Project Overview
-
-### Objectives
+## 🎯 Objectives
 
 - Discover active devices on the network
 - Identify exposed services and open ports
-- Evaluate network security posture
-- Analyze potential attack surfaces
-- Assess security risks
+- Analyze network communications
+- Assess potential security risks
+- Evaluate overall security posture
 - Recommend remediation strategies
 
 ---
 
-# ⚔️ Assessment Methodology
+## 🔍 Assessment Methodology
 
-## Phase 1 — Network Discovery
+### 1. Asset Discovery
 
-```bash
-nmap -sn 192.168.1.0/24
-```
+Identify active hosts and devices connected to the network.
 
-### Purpose
-- Identify active hosts
-- Build asset inventory
-- Map network devices
+### 2. Service Enumeration
 
----
+Discover exposed services and open ports running on network devices.
 
-## Phase 2 — Service Enumeration
+### 3. Traffic Analysis
 
-```bash
-nmap -sV <target-ip>
-```
+Analyze network communications to understand device behavior and identify potential concerns.
 
-### Purpose
-- Detect running services
-- Identify service versions
-- Discover exposed attack surfaces
+### 4. Risk Assessment
+
+Evaluate identified findings and determine their potential impact.
+
+### 5. Security Hardening
+
+Recommend security improvements and best practices.
 
 ---
 
-## Phase 3 — Traffic Analysis
-
-### Tools Used
-- Wireshark
-- TCP/IP Analysis
-- Packet Inspection
-
-### Purpose
-- Observe network communications
-- Analyze protocol behavior
-- Detect unusual traffic patterns
-
----
-
-## Phase 4 — Security Assessment
-
-### Areas Evaluated
-
-✅ Router Configuration
-
-✅ Wireless Security
-
-✅ Authentication Controls
-
-✅ Device Exposure
-
-✅ Service Accessibility
-
-✅ Firmware Status
-
----
-
-# 🧰 Security Toolkit
+## 🛠️ Technologies & Tools
 
 | Tool | Purpose |
 |--------|---------|
@@ -106,157 +63,76 @@ nmap -sV <target-ip>
 | Wireshark | Packet Analysis |
 | Kali Linux | Security Testing Environment |
 | GitHub Pages | Project Deployment |
-| HTML/CSS/JavaScript | Reporting Dashboard |
+| HTML / CSS / JavaScript | Project Website |
 
 ---
 
-# 🚨 Security Findings
+## 📊 Skills Demonstrated
 
-| Finding | Risk Level |
-|----------|------------|
-| Open Network Services | 🟡 Medium |
-| Device Exposure | 🟡 Medium |
-| Weak Configurations | 🟢 Low |
-| Unnecessary Services | 🟡 Medium |
-
----
-
-# 🛠️ Recommended Mitigations
-
-## Network Hardening
-
-- Disable unnecessary services
-- Restrict exposed ports
-- Review firewall configurations
-- Segment network where appropriate
-
-## Wireless Security
-
-- Enable WPA3
-- Disable WPS
-- Rotate passwords periodically
-- Update router firmware
-
-## Device Security
-
-- Remove inactive devices
-- Update operating systems
-- Enable endpoint protection
-
-## Monitoring
-
-- Conduct regular audits
-- Monitor connected devices
-- Review network activity logs
+| Security Domain | Demonstrated Capability |
+|----------------|-------------------------|
+| 🌐 Network Security | Security Assessment & Analysis |
+| 🔍 Asset Discovery | Host Identification & Enumeration |
+| ⚡ Service Enumeration | Port & Service Discovery |
+| 📡 Traffic Analysis | Packet Inspection & Analysis |
+| 🚨 Risk Assessment | Threat & Exposure Evaluation |
+| 🛡️ Security Hardening | Security Recommendations |
+| 📝 Documentation | Security Reporting |
 
 ---
 
-# 🧠 Skills Demonstrated
+## 🎓 Key Learning Outcomes
 
-<div align="center">
-
-| Domain | Demonstrated Skills |
-|----------|-------------------|
-| 🌐 Network Security | Security Auditing, Security Assessment |
-| 🔍 Reconnaissance | Asset Discovery, Network Enumeration |
-| 🚨 Risk Management | Risk Analysis, Threat Identification |
-| 📡 Traffic Analysis | Packet Analysis, Protocol Inspection |
-| 🛡️ Security Hardening | Remediation Planning, Secure Configuration |
-| 📝 Documentation | Reporting, Findings Analysis |
-
-</div>
-
----
-
-# 📈 Key Learning Outcomes
-
-Through this project, I gained practical experience in:
-
-- Network reconnaissance techniques
-- Service enumeration methodologies
+- Network visibility and asset identification
+- Service enumeration techniques
+- Traffic analysis fundamentals
 - Security risk assessment
-- Threat identification
+- Attack surface evaluation
 - Security hardening practices
-- Professional cybersecurity reporting
+- Professional cybersecurity documentation
 
 ---
 
-# 📸 Project Screenshots
-
-## Network Discovery
-
-Add your Nmap discovery screenshot here.
-
-```markdown
-![Network Discovery](images/network-discovery.png)
-```
-
----
-
-## Service Enumeration
-
-Add your Nmap service scan screenshot here.
-
-```markdown
-![Service Enumeration](images/service-enumeration.png)
-```
-
----
-
-## Traffic Analysis
-
-Add your Wireshark analysis screenshot here.
-
-```markdown
-![Traffic Analysis](images/wireshark-analysis.png)
-```
-
----
-
-## Security Findings Dashboard
-
-Add screenshots from your project website.
-
-```markdown
-![Dashboard](images/dashboard.png)
-```
-
----
-
-# 🎓 Key Concepts Applied
+## 💡 Key Concepts Applied
 
 - Network Enumeration
-- Asset Inventory Management
-- Vulnerability Assessment
-- Threat Analysis
-- Risk Evaluation
+- Asset Inventory
+- Service Identification
+- Risk Analysis
+- Threat Identification
 - Security Hardening
-- Packet Inspection
+- Packet Analysis
 - Security Reporting
 
 ---
 
-# 👨‍💻 Author
+## 👨‍💻 Author
 
-## Sai Nikhith Atmakuri
+### Sai Nikhith Atmakuri
 
-🎓 Master of Science in Computer Science
-
+🎓 Master of Science in Computer Science  
+🏫 Florida Atlantic University  
 🔐 Cybersecurity Enthusiast
 
-🏫 Florida Atlantic University
+### Connect
 
-### Connect With Me
-
-- LinkedIn: www.linkedin.com/in/atmakurisainikhith
-- GitHub: github.com/Nikhith-NI7
+- LinkedIn: https://www.linkedin.com/in/sai-nikhith-atmakuri-204b501b1/
+- GitHub: github.com/Nikhith-ni7
 
 ---
 
 <div align="center">
 
-## 🔒 Security Is A Process, Not A Product
+### 🔒 Security Is a Process, Not a Product
 
 *"You can't secure what you can't see."*
+
+---
+
+## ⚠️ Educational Purpose Notice
+
+This project was created solely for educational, research, and portfolio purposes. All testing and security assessments were performed in an authorized environment. No unauthorized systems or networks were targeted.
+
+---
 
 </div>
