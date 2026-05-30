@@ -213,8 +213,8 @@ Through this project I gained hands-on experience with:
 
 ### Connect
 
-- LinkedIn: www.linkedin.com/in/atmakurisainikhith
-- GitHub: https://github.com/Nikhith-NI7
+- LinkedIn: https://www.linkedin.com/in/sai-nikhith-atmakuri-204b501b1/
+- GitHub: https://github.com/Nikhith-ni7
 
 ---
 
