@@ -2,20 +2,16 @@
 
 # 🛡️ HOME NETWORK SECURITY AUDIT
 
-### Security Assessment • Vulnerability Analysis • Network Hardening
+### Assess • Analyze • Secure
 
-[![Cybersecurity](https://img.shields.io/badge/Cybersecurity-Project-blue)]()
-[![Network Security](https://img.shields.io/badge/Network-Security-success)]()
-[![Nmap](https://img.shields.io/badge/Tool-Nmap-red)]()
-[![Wireshark](https://img.shields.io/badge/Tool-Wireshark-blue)]()
-
-### 🌐 Live Project
-
-**https://nikhith-ni7.github.io/home-network-security-audit/**
+![Cybersecurity](https://img.shields.io/badge/Cybersecurity-Project-0A192F?style=for-the-badge)
+![Network Security](https://img.shields.io/badge/Network-Security-00C853?style=for-the-badge)
+![Nmap](https://img.shields.io/badge/Tool-Nmap-E53935?style=for-the-badge)
+![Wireshark](https://img.shields.io/badge/Tool-Wireshark-1E88E5?style=for-the-badge)
 
 ---
 
-*"You can't secure what you can't see."*
+### 🔍 Security Assessment • 🌐 Asset Discovery • ⚡ Risk Analysis • 🛡️ Security Hardening
 
 </div>
 
@@ -23,37 +19,37 @@
 
 # 🎯 Executive Summary
 
-This project simulates a real-world security assessment of a home network environment. The objective was to identify network assets, enumerate exposed services, assess potential attack surfaces, and provide actionable security recommendations to improve the overall security posture.
+This project simulates a real-world security assessment of a home network environment. The objective was to identify network assets, enumerate exposed services, assess potential attack surfaces, and provide actionable recommendations to improve the overall security posture.
 
-The assessment follows methodologies commonly used by Security Analysts, SOC Analysts, and Penetration Testers during network reconnaissance and security audits.
-
----
-
-# 🔍 Assessment Scope
-
-| Area | Objective |
-|--------|-----------|
-| Asset Discovery | Identify connected devices |
-| Service Enumeration | Discover running services |
-| Port Analysis | Detect exposed ports |
-| Security Review | Evaluate configurations |
-| Risk Assessment | Identify potential threats |
-| Remediation | Recommend security controls |
+The assessment follows industry-standard security methodologies used by SOC Analysts, Security Analysts, and Penetration Testers.
 
 ---
 
-# ⚔️ Methodology
+# 🌐 Project Overview
 
-## Phase 1 — Network Reconnaissance
+### Objectives
+
+- Discover active devices on the network
+- Identify exposed services and open ports
+- Evaluate network security posture
+- Analyze potential attack surfaces
+- Assess security risks
+- Recommend remediation strategies
+
+---
+
+# ⚔️ Assessment Methodology
+
+## Phase 1 — Network Discovery
 
 ```bash
 nmap -sn 192.168.1.0/24
 ```
 
-**Goal:**
-- Discover active hosts
-- Identify network assets
-- Build network inventory
+### Purpose
+- Identify active hosts
+- Build asset inventory
+- Map network devices
 
 ---
 
@@ -63,10 +59,10 @@ nmap -sn 192.168.1.0/24
 nmap -sV <target-ip>
 ```
 
-**Goal:**
-- Identify exposed services
-- Detect service versions
-- Evaluate attack surface
+### Purpose
+- Detect running services
+- Identify service versions
+- Discover exposed attack surfaces
 
 ---
 
@@ -75,12 +71,12 @@ nmap -sV <target-ip>
 ### Tools Used
 - Wireshark
 - TCP/IP Analysis
-- Protocol Inspection
+- Packet Inspection
 
-**Objective:**
-- Observe network behavior
-- Detect suspicious communications
-- Validate service activity
+### Purpose
+- Observe network communications
+- Analyze protocol behavior
+- Detect unusual traffic patterns
 
 ---
 
@@ -88,11 +84,11 @@ nmap -sV <target-ip>
 
 ### Areas Evaluated
 
-✅ Router Security
+✅ Router Configuration
 
-✅ Wi-Fi Configuration
+✅ Wireless Security
 
-✅ Authentication Mechanisms
+✅ Authentication Controls
 
 ✅ Device Exposure
 
@@ -108,98 +104,135 @@ nmap -sV <target-ip>
 |--------|---------|
 | Nmap | Network Discovery & Enumeration |
 | Wireshark | Packet Analysis |
-| Kali Linux | Security Testing |
-| GitHub Pages | Project Hosting |
+| Kali Linux | Security Testing Environment |
+| GitHub Pages | Project Deployment |
 | HTML/CSS/JavaScript | Reporting Dashboard |
 
 ---
 
 # 🚨 Security Findings
 
-| Finding | Risk |
-|----------|------|
-| Open Network Services | Medium |
-| Device Exposure | Medium |
-| Weak Security Configurations | Low-Medium |
-| Unnecessary Service Availability | Medium |
+| Finding | Risk Level |
+|----------|------------|
+| Open Network Services | 🟡 Medium |
+| Device Exposure | 🟡 Medium |
+| Weak Configurations | 🟢 Low |
+| Unnecessary Services | 🟡 Medium |
 
 ---
 
 # 🛠️ Recommended Mitigations
 
-### Network Hardening
+## Network Hardening
 
-- Disable unused services
-- Restrict unnecessary port exposure
-- Implement network segmentation
-- Review firewall rules
+- Disable unnecessary services
+- Restrict exposed ports
+- Review firewall configurations
+- Segment network where appropriate
 
-### Wireless Security
+## Wireless Security
 
-- Use WPA3 where available
+- Enable WPA3
 - Disable WPS
-- Rotate Wi-Fi credentials periodically
+- Rotate passwords periodically
+- Update router firmware
 
-### Device Security
+## Device Security
 
-- Update firmware regularly
 - Remove inactive devices
+- Update operating systems
 - Enable endpoint protection
 
-### Monitoring
+## Monitoring
 
-- Conduct periodic security audits
-- Monitor network activity
-- Review connected devices regularly
-
----
-
-# 📊 Skills Demonstrated
-
-```text
-Network Security
-Vulnerability Assessment
-Risk Analysis
-Asset Discovery
-Network Enumeration
-Service Identification
-Packet Analysis
-Security Documentation
-Threat Identification
-Security Hardening
-```
+- Conduct regular audits
+- Monitor connected devices
+- Review network activity logs
 
 ---
 
-# 🏹 Key Learning Outcomes
+# 🧠 Skills Demonstrated
 
-Through this project I gained hands-on experience with:
+<div align="center">
 
-- Security assessment workflows
+| Domain | Demonstrated Skills |
+|----------|-------------------|
+| 🌐 Network Security | Security Auditing, Security Assessment |
+| 🔍 Reconnaissance | Asset Discovery, Network Enumeration |
+| 🚨 Risk Management | Risk Analysis, Threat Identification |
+| 📡 Traffic Analysis | Packet Analysis, Protocol Inspection |
+| 🛡️ Security Hardening | Remediation Planning, Secure Configuration |
+| 📝 Documentation | Reporting, Findings Analysis |
+
+</div>
+
+---
+
+# 📈 Key Learning Outcomes
+
+Through this project, I gained practical experience in:
+
 - Network reconnaissance techniques
 - Service enumeration methodologies
-- Security risk evaluation
+- Security risk assessment
+- Threat identification
+- Security hardening practices
 - Professional cybersecurity reporting
 
 ---
 
-# 📸 Project Evidence
+# 📸 Project Screenshots
 
-### Network Discovery
+## Network Discovery
 
-> Add your Nmap screenshots here
+Add your Nmap discovery screenshot here.
 
-### Service Enumeration
+```markdown
+![Network Discovery](images/network-discovery.png)
+```
 
-> Add your scan results here
+---
 
-### Traffic Analysis
+## Service Enumeration
 
-> Add your Wireshark screenshots here
+Add your Nmap service scan screenshot here.
 
-### Findings Dashboard
+```markdown
+![Service Enumeration](images/service-enumeration.png)
+```
 
-> Add project screenshots here
+---
+
+## Traffic Analysis
+
+Add your Wireshark analysis screenshot here.
+
+```markdown
+![Traffic Analysis](images/wireshark-analysis.png)
+```
+
+---
+
+## Security Findings Dashboard
+
+Add screenshots from your project website.
+
+```markdown
+![Dashboard](images/dashboard.png)
+```
+
+---
+
+# 🎓 Key Concepts Applied
+
+- Network Enumeration
+- Asset Inventory Management
+- Vulnerability Assessment
+- Threat Analysis
+- Risk Evaluation
+- Security Hardening
+- Packet Inspection
+- Security Reporting
 
 ---
 
@@ -207,14 +240,16 @@ Through this project I gained hands-on experience with:
 
 ## Sai Nikhith Atmakuri
 
-🎓 Master's in Computer Science  
-🔐 Aspiring Cybersecurity Professional  
+🎓 Master of Science in Computer Science
+
+🔐 Cybersecurity Enthusiast
+
 🏫 Florida Atlantic University
 
-### Connect
+### Connect With Me
 
-- LinkedIn: https://www.linkedin.com/in/sai-nikhith-atmakuri-204b501b1/
-- GitHub: https://github.com/Nikhith-ni7
+- LinkedIn: www.linkedin.com/in/atmakurisainikhith
+- GitHub: github.com/Nikhith-NI7
 
 ---
 
@@ -222,6 +257,6 @@ Through this project I gained hands-on experience with:
 
 ## 🔒 Security Is A Process, Not A Product
 
-⭐ If you found this project interesting, feel free to explore the repository.
+*"You can't secure what you can't see."*
 
 </div>
